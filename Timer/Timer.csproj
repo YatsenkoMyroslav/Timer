@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="shhebetanie_ptic_na_budilnik.mp3" />
+    <None Remove="shhebetanie_ptic_na_budilnik.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="shhebetanie_ptic_na_budilnik.wav" />
+  </ItemGroup>
+
+</Project>
